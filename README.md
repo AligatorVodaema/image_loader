@@ -5,12 +5,12 @@ Python3.9
 
 Installation:
 1. create venv, activate.
-2. cd test_image_loader/
-3. pip install -r requirements.txt
-4. cd image_app/
+2. $ cd test_image_loader/
+3. $ pip install -r requirements.txt
+4. $ cd image_app/
 
 Run:
-python main_api.py
+$ python main_api.py
 
 Uploaded images in folder "saved_images".
 
