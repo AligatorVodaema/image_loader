@@ -114,4 +114,6 @@ class AuthHandler(BaseHTTPRequestHandler):
 if __name__ == '__main__':
 
     httpd = HTTPServer((IP_FOR_SERVING, PORT_FOR_SERVING), AuthHandler)
+    print(f'Serving on {IP_FOR_SERVING} ip, {PORT_FOR_SERVING} port!'
+        ' to change visit "conf.py"')
     httpd.serve_forever()
